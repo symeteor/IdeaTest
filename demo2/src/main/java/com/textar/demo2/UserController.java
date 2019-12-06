@@ -28,7 +28,7 @@ public class UserController {
     public ModelAndView index() {
         return new ModelAndView("user/user", "userList", userList);
     }
-    @GetMapping("/test3")
+    @GetMapping("/test2")
     public ModelAndView index2() {
         return new ModelAndView("article/index", "articles", aList);
     }
